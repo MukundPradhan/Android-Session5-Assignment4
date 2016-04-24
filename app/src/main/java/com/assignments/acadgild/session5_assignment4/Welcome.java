@@ -14,11 +14,10 @@ public class Welcome extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
         tvName = (TextView) findViewById(R.id.tvNameResult);
 
-
         Intent getIntentObj=getIntent();
-        String Res=getIntentObj.getExtras().getString("BundleName");
+        String Res="Welcomes to " + getIntentObj.getExtras().getString("BundleName");
 
-        tvName.setText("Welcomes to " + Res);
+        tvName.setText(Res);
 
     }
 }
