@@ -18,7 +18,7 @@ public class Welcome extends AppCompatActivity {
         Intent getIntentObj=getIntent();
         String Res=getIntentObj.getExtras().getString("BundleName");
 
-        tvName.setText(Res);
+        tvName.setText("Welcomes to " + Res);
 
     }
 }

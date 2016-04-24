@@ -10,23 +10,12 @@
     tools:context="com.assignments.acadgild.session5_assignment4.Welcome">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Welcomes to :"
-        android:id="@+id/textView3"
-        android:layout_marginTop="58dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/tvNameResult"
-        android:layout_below="@+id/textView3"
         android:layout_marginTop="45dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="25sp" />
 </RelativeLayout>

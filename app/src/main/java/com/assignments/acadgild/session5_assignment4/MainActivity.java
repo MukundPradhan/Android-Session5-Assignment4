@@ -6,6 +6,7 @@ Make a Login screen to display another activity Welcomes with user name.
 
 Data transfered thru' Bundle
 
+You can give a Toast msg when the text box is empty.
  */
 
 
