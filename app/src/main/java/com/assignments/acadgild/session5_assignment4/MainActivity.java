@@ -4,7 +4,7 @@ Session 5 - Assignment 4
 
 Make a Login screen to display another activity Welcomes with user name.
 
-Data transfered thru' Bundle
+Data transferred thru' Bundle
 
 You can give a Toast msg when the text box is empty.
  */
